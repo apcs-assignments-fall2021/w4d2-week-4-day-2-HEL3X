@@ -11,8 +11,8 @@ public class MyMain {
     //    int[] arr2 = {2, 4, 6};
     //    int[] arr3 = addArrays3(arr1, arr2); // arr3 = [3, 7, 11]
     public static int[] addArrays3(int[] arr1, int[] arr2) {
-        // REPLACE THIS WITH YOUR CODE
-        return null;
+        int [] arr3 = {arr1[0] + arr2[0], arr1[1] + arr2[1], arr1[2] + arr2[2]};
+        return arr3;
     }
 
     // Arrays Basics Problem 2:
@@ -23,8 +23,8 @@ public class MyMain {
     // int[] arr1 = {1, 3, 5};
     // double[] arr2 = average3(arr1); // arr2 = [3.0, 3.0, 3.0]
     public static double[] average3(int[] arr) {
-        // REPLACE THIS WITH YOUR CODE
-        return null;
+        double [] arrAverage = {(arr[0]+arr[1]+arr[2])/3.0, (arr[0]+arr[1]+arr[2])/3.0, (arr[0]+arr[1]+arr[2])/3.0};
+        return arrAverage;
     }
 
     // Iteration Problem 1:
@@ -34,8 +34,11 @@ public class MyMain {
     // int[] nums = {1, 6, 2, 6, 8, 2, 3, 9, 3};
     // int x = sum(nums); // x = 40
     public static int sum(int[] arr) {
-        // REPLACE THIS WITH YOUR CODE
-        return -1;
+        int out = 0;
+        for (int i = 0; i < arr.length; i++) {
+            out += arr[i];
+        }
+        return out;
     }
 
     // Iteration Problem 2:
